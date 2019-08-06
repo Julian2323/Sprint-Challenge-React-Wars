@@ -25,7 +25,7 @@ const PeopleList = () => {
     return (
         <div>
             {people.map(people => {
-                return <PeopleCard name={people.name} mass={people.mass} />
+                return <PeopleCard name={people.name} mass={people.mass} height={people.height} hair_color={people.hair_color}/>
             })}
         </div>
     )

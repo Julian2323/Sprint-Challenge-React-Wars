@@ -25,6 +25,12 @@ const PeopleCard = props => {
             <div>
                 <Info>mass: {props.mass} </Info>
             </div>
+            <div>
+                <Info>height: {props.height} </Info>
+            </div>
+            <div>
+                <Info>hair_color: {props.hair_color} </Info>
+            </div>
         </>
     );
 };
