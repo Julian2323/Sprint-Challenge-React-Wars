@@ -14,12 +14,17 @@ const Info = styled.h2`
 `
 
 const PeopleCard = props => {
-    const people = props.name;
+    //const people = props.name;
     //const mass = props.mass;
+    //console.log(props.name)
     return (
         <>
-            <Info>name: {people} </Info>
-            {/* <Info>mass: {mass} </Info> */}
+            <div>
+                <Info>name: {props.name} </Info>
+            </div>
+            <div>
+                <Info>mass: {props.mass} </Info>
+            </div>
         </>
     );
 };
